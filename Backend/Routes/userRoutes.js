@@ -16,44 +16,32 @@ router.post(
 );
 
 router.post(
-    "/deposit",
-    
-    userController.depositAmount
-  );
+  "/deposit",
+  userController.depositAmount
+);
 
- 
+router.post(
+  "/getuserinformation",
 
-  router.post(
-    "/getuserinformation",
-    
-    userController.getUserById
-  );
+  userController.getUserById
+);
 
+router.post(
+  "/statements",
 
- 
+  userController.getUserStatements
+);
 
-  router.post(
-    "/statements",
-    
-    userController.getUserStatements
-  );
+router.post(
+  "/withdraw",
 
-  
+  userController.withDrawAmount
+);
 
+router.post(
+  "/transfer",
 
-  router.post(
-    "/withdraw",
-    
-    userController.withDrawAmount
-  );
-
-
-  router.post(
-    "/transfer",
-    
-    userController.transferAmount
-  );
-
-
+  userController.transferAmount
+);
 
 module.exports = router;
