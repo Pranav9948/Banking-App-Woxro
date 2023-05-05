@@ -1,0 +1,34 @@
+
+
+.circle {
+    width: 30px;
+    height: 30px;
+    background-color: rgba(128, 128, 128, 0.466);
+    border-radius: 50%;
+  }
+  
+
+  .rectangle{
+    
+    margin-left: 25px;
+    width: 40%;
+    height: 16px;
+    background-color: rgba(128, 128, 128, 0.422);
+  }
+
+ .cardz{
+
+  width: 100%;
+  height:170px;
+  background-color: rgba(128, 128, 128, 0.422);
+
+ }
+
+
+ .rectangles{
+    
+  margin-top: 15px;
+  width: 70%;
+  height: 12px;
+  background-color: rgba(128, 128, 128, 0.422);
+}
